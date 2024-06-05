@@ -53,14 +53,6 @@ header {
     text-align: center;
 }
 
-header h1 {
-    margin: 0.2em 0;
-}
-
-header p {
-    max-width: 800px;
-    margin: 0.5em auto;
-}
 
 section{
     display: flex;
@@ -82,9 +74,12 @@ section p{
 }
 section h1{
     font-size: 2.7rem;
-    color: rgb(59, 199, 218);
+    
     font-weight: 800;
     text-transform: uppercase;
+    background: linear-gradient(to right, #b380ff, #85dbff); /* Substitua #b380ff e #85dbff pelas cores desejadas */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 section article{
     padding: 10px;
@@ -98,11 +93,33 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-    color: #0066cc;
-    margin-bottom: 0.5em;
-    font-family: "Inter", sans-serif;
+
+
+section article .div-cards div h1{
+    font-size: 2rem;
+    line-height: 35px;
+    margin: 0;
+    background: linear-gradient(to right, #b380ff, #85dbff); /* Substitua #b380ff e #85dbff pelas cores desejadas */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
+section article .div-cards  {
+    display: flex;
+}
+section article h1  {
+    margin-top: 0;
+}
+section article .div-cards div {
+    background-color: #1a1a21;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+
 
 
 
