@@ -99,7 +99,7 @@ section article .div-cards div h1{
     font-size: 2rem;
     line-height: 35px;
     margin: 0;
-    background: linear-gradient(to right, #b380ff, #85dbff); /* Substitua #b380ff e #85dbff pelas cores desejadas */
+    background: linear-gradient(to right, #b380ff, #85dbff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
@@ -119,8 +119,48 @@ section article .div-cards div {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
 }
 
+section article .funcionalidades .funcionalidade{
+    display: flex;
+}
+.funcionalidades{
+    display: flex;
+}
+.funcionalidades .funcionalidade .texto h1{
+    background: linear-gradient(to right, #b380ff, #85dbff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 49px;
+}
+.funcionalidades .funcionalidade .texto h1, p{
+    margin: 0;
+}
+.funcionalidades .funcionalidade .num {
+    padding: 15px;
+    display: flex;
+    background-color: #1a1a21;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.funcionalidades .funcionalidade .num h1{
+    margin-bottom: 0;
+}
 
-
+/* .section-funcionalidades{
+    margin: 0; 
+         padding: 0; 
+         background-color: white;
+         border-radius: 0;
+} 
+.section-funcionalidades article h1{
+    background: linear-gradient(to right, #0f1d23, #fff);
+    -webkit-background-clip: text;
+}
+*/
+/* .funcionalides .funcionalidade .texto h2, p{
+    color: black!important;
+} */
 
 
 footer {
