@@ -191,8 +191,19 @@ input[type="submit"]:hover {
     color: red;
 }
 
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
 .formulario article{
     width: 420px;
+}
+
+.formulario article label{
+    background: linear-gradient(to right, #b380ff, #85dbff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* .section-funcionalidades{
