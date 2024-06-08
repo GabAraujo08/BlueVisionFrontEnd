@@ -253,3 +253,13 @@ input[type="submit"]:hover {
         margin-bottom: 10px;
     }
  }
+
+ footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+    
+    width: 100%;
+}
