@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -54,36 +55,44 @@ header {
 }
 
 
-section{
+section {
     display: flex;
 }
-section img{
+
+section img {
     width: 320px;
     border-radius: 10px;
 }
-section p, h1{
+
+section p,
+h1 {
     font-family: "Inter", sans-serif;
 
-    
+
 }
-section p{
+
+section p {
     font-size: 2rem;
     color: white;
     font-weight: 400;
     line-height: 2.6rem;
 }
-section h1{
+
+section h1 {
     font-size: 2.7rem;
-    
+
     font-weight: 800;
     text-transform: uppercase;
-    background: linear-gradient(to right, #b380ff, #85dbff); /* Substitua #b380ff e #85dbff pelas cores desejadas */
+    background: linear-gradient(to right, #b380ff, #85dbff);
+    /* Substitua #b380ff e #85dbff pelas cores desejadas */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-section article{
+
+section article {
     padding: 10px;
 }
+
 section {
     background: transparent;
     margin: 1em auto;
@@ -95,45 +104,53 @@ section {
 
 
 
-section article .div-cards div h1{
+section article .div-cards div h1 {
     font-size: 2rem;
     line-height: 35px;
     margin: 0;
     background: linear-gradient(to right, #b380ff, #85dbff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+
 }
-section article .div-cards  {
+
+section article .div-cards {
     display: flex;
 }
-section article h1  {
+
+section article h1 {
     margin-top: 0;
 }
+
 section article .div-cards div {
     background-color: #1a1a21;
     padding: 10px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-section article .funcionalidades .funcionalidade{
+section article .funcionalidades .funcionalidade {
     display: flex;
 }
-.funcionalidades{
+
+.funcionalidades {
     display: flex;
 }
-.funcionalidades .funcionalidade .texto h1{
+
+.funcionalidades .funcionalidade .texto h1 {
     background: linear-gradient(to right, #b380ff, #85dbff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 49px;
 }
-.funcionalidades .funcionalidade .texto h1, p{
+
+.funcionalidades .funcionalidade .texto h1,
+p {
     margin: 0;
 }
+
 .funcionalidades .funcionalidade .num {
     padding: 15px;
     display: flex;
@@ -143,31 +160,40 @@ section article .funcionalidades .funcionalidade{
     border-radius: 5px;
     margin-right: 10px;
 }
-.funcionalidades .funcionalidade .num h1{
+
+.funcionalidades .funcionalidade .num h1 {
     margin-bottom: 0;
 }
 
 
-        input[type="text"], input[type="email"], textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-        }
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-        .error {
-            color: red;
-        }
-   
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+}
+
+.formulario article{
+    width: 420px;
+}
 
 /* .section-funcionalidades{
     margin: 0; 
