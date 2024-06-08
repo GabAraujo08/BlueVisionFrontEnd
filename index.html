@@ -91,12 +91,36 @@
                     
             </article>
         </section>
+        <section>
+            
+            <article>
+                <h1>FORMULÁRIO</h1>
+                <form id="contactForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <div id="nameError" class="error"></div>
+                
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <div id="emailError" class="error"></div>
+                
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <div id="messageError" class="error"></div>
+                
+                    <input type="submit" value="Submit">
+                </form>
+                    
+            </article>
+          
+        </section>
     </main>
     <footer>
         <h2>Obrigado!</h2>
         <p>Agradecemos o seu interesse no nosso projeto de Reconhecimento Facial Marinho com Gemini.</p>
     </footer>
     <script src="index.js"></script>
+    
 </body>
 
 </html>
